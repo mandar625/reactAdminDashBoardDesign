@@ -1,0 +1,99 @@
+.sidebar{
+
+    // background-color: blanchedalmond;
+    flex: 1;
+    border-right: 0.5px solid rgb(106, 98, 98);
+    min-height: 100vh;
+    background-color: #ffffff;
+    .top{
+
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+        .logo{
+
+            font-size: 20px;
+            font-weight: bold;
+            color: red;
+        }
+    }
+    hr{
+
+        height: 0;
+        border: 0.5px solid rgb(178, 155, 155);
+    }
+    .center{
+        padding-left: 10px;
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            .title{
+                font-size: 10px;
+                font-weight: bold;
+                color: #999;
+                margin-top: 15px;
+                margin-bottom: 5px;
+
+            }
+            li{
+
+                display: flex;
+                align-items: center;
+                padding: 8px;
+                cursor: pointer;
+
+                &:hover{
+
+                    background-color: rgb(240, 219, 215);
+                }
+
+                .icon{
+                    font-size: 18px;
+                    color: red;
+                }
+                span{
+
+                    font-size: 17px;
+                    font-weight: 600;
+                    color: grey;
+                    margin-left: 10px;
+                }
+            }
+        }
+       
+    }
+    .bottom{
+
+        display: flex;
+        align-items: center;
+        margin: 10px;
+
+        .coloOption{
+
+            width: 30px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid rgb(4, 4, 4);
+            cursor: pointer;
+            margin: 5px;
+
+            &:nth-child(1){
+
+                background-color: whitesmoke;
+            }
+            &:nth-child(2){
+
+                background-color: rgb(0, 0, 0);
+            }
+           
+        }
+
+    }
+}
